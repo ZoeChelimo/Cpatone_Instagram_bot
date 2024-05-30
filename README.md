@@ -33,20 +33,6 @@ This project automates interactions with Instagram using Python. It can perform 
     - Use a task scheduler like `cron` on Unix systems or Task Scheduler on Windows to run the script at regular intervals.
 
 ## Configuration
-- **Instagram Credentials**:
-    ```python
-    INSTAGRAM_USERNAME = 'your_username'
-    INSTAGRAM_PASSWORD = 'your_password'
-    ```
-- **Target Hashtags and Profiles**:
-    ```python
-    HASHTAGS = ['python', 'coding', 'development']
-    TARGET_PROFILES = ['alpha_pythonm4le']
-    ```
-- **WebDriver Path**:
-    ```python
-    WEBDRIVER_PATH = '/path/to/webdriver'
-    ```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements. For major changes, please open an issue first to discuss what you would like to change.
