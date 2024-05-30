@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
@@ -17,6 +18,29 @@ This project automates interactions with Instagram using Python. It can perform 
 - Post comments on selected posts.
 - Scheduled automation tasks.
 - Detailed logging of actions performed.
+
+
+## Installation
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/yourusername/instagram-automation.git
+    cd instagram-automation
+    ```
+
+2. **Create and Activate Virtual Environment** (optional but recommended):
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Download Web Driver**:
+    - Download the appropriate WebDriver for your browser (e.g., ChromeDriver for Chrome).
+    - Make sure the WebDriver is in your system PATH or specify its path in the configuration.
 
 
 
